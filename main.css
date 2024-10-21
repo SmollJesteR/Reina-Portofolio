@@ -139,6 +139,7 @@ a {
 .container {
   width: 90%;
   height: 100vh;
+  display: flex;
   background: var(--backgroundcolor);
 }
 
@@ -158,10 +159,13 @@ header {
   background: #f1effe;
   z-index: 999;
 }
-
+q
+header a{
+  width: 25%;
+} 
 header .logo {
-  width: 25%;;
-  height: auto;
+  width: 205.4px;
+  height: 56px;
 }
 
 nav ul {
@@ -170,7 +174,7 @@ nav ul {
   justify-content: center;    
   align-items: center;        
   padding-left: 0;                 
-  margin: 0;                  
+  margin: 0 auto;                  
 }
 
 nav ul li {
@@ -724,20 +728,20 @@ p {
   display: block;
 }
 
-.skills .skill-strct .skill-html {
-  width: 90%;
+.skills .skill-strct .skill-troublemaker {
+  width: 85%;
 }
 
-.skills .skill-strct .skill-css {
-  width: 80%;
+.skills .skill-strct .skill-HeavyHitter {
+  width: 83%;
 }
 
 .skills .skill-strct .skill-sass {
-  width: 75%;
+  width: 92%;
 }
 
-.skills .skill-strct .skill-javascript {
-  width: 60%;
+.skills .skill-strct .skill-OverWhelming {
+  width: 96%;
 }
 
 .skills .skill-strct .skill-mw {
