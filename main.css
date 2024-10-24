@@ -91,7 +91,7 @@ a {
   font-size: 8em;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
-  right: -14%;
+  right: -12%;
   bottom: 35%;
   color: var(--mainsubcolor);
   opacity: 0.1;
@@ -211,6 +211,8 @@ header .boxes {
 header .boxes .one {
   height: 50px;
   width: 100px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
   border: 1px solid var(--maincolor);
   background: var(--whitecolor);
   display: -webkit-box;
